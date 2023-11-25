@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.container{
+    border-radius: 20px;
+    position: relative;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;       
+    height: 500px;
+    color: white;
+
+    overflow: scroll;
+}
+.input{
+    text-align: center;
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px;
+
+
+}
+.Inputbtn{
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: bold;
+
+
+}
+
+.removebtn{
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: bold;
+}
+.Deletebtn{
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px;
+    width: 70px;
+}
+
+.Editbtn{ border-radius: 5px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px;
+    width: 70px;
+}
+.Deletebtn:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: blue;
+}
+.Editbtn:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: blue;
+}
